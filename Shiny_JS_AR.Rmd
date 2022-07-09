@@ -1,0 +1,35 @@
+---
+title: "App"
+author: "AR JS"
+date: '2022-07-09'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Idea:
+"Not your data analyst"
+
+What can it do:
+
+What we want it to do:
+1) user can use/upload any data set
+2) Clean NAs, columns, etc
+3)
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
