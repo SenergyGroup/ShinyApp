@@ -108,7 +108,7 @@ server <- function(input, output){
       req(input$user_input_file)
       #loading in the user data
       rounded_df()
-    }, digits = max_digits)
+    }, digits = 100)
   }
   
   observe({
